@@ -1,0 +1,21 @@
+{%- assign email_text = include.address | strip -%}
+{%- if email_text != "" -%}
+{%- assign email_user = nil -%}
+{%- assign email_domain = nil -%}
+{%- if email_text contains " AT " -%}
+{%- assign email_parts = email_text | split: " AT " -%}
+{%- assign email_user = email_parts[0] | strip -%}
+{%- assign email_domain = email_parts[1] | replace: " DOT ", "." | strip -%}
+{%- elsif email_text contains "@" -%}
+{%- assign email_parts = email_text | split: "@" -%}
+{%- assign email_user = email_parts[0] | strip -%}
+{%- assign email_domain = email_parts[1] | strip -%}
+{%- endif -%}
+{%- if include.no_reveal -%}
+{{ email_text }}
+{%- elsif email_user and email_domain -%}
+<span class="obfuscated-email" data-user="{{ email_user | escape }}" data-domain="{{ email_domain | escape }}">{{ email_text }}</span>
+{%- else -%}
+{{ email_text }}
+{%- endif -%}
+{%- endif -%}

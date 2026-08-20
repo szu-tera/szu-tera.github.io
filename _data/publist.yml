@@ -1,0 +1,262 @@
+- title: "DiARC: Distinguishing Positive and Negative Samples Helps Improving ARC-like Reasoning Ability of Large Language Models"
+  description: "DiARC creates ARC preference pairs via output transformations, DSL inversions, and targeted edits, helping LLMs reject near-miss solutions and induce rules."
+  authors: "Yuxuan Yang, Feiyang Li, Yile Wang"
+  equal_contribution_authors:
+    - Yuxuan Yang
+    - Feiyang Li
+  corresponding_authors:
+    - Yile Wang
+  image: DiARC_2026.png
+  links:
+    - url: https://arxiv.org/abs/2606.26530
+      display: arXiv
+  arxiv_year: 2026
+  github: https://github.com/szu-tera/DiARC
+  highlight: 1
+
+- title: "DySem: Uncovering Dynamic Semantic Components of Large Language Models for Calculating Semantic Textual Similarity"
+  description: "Training-free DySem uses multilingual consensus to find sample-specific semantic components and compute similarity via dynamic dimensions, not hidden states."
+  authors: "Kaijie Zheng, Weiqin Wang, Yile Wang, Hui Huang"
+  equal_contribution_authors:
+    - Kaijie Zheng
+    - Weiqin Wang
+  corresponding_authors:
+    - Yile Wang
+  image: DySem_2026.png
+  links:
+    - url: https://arxiv.org/abs/2605.29751
+      display: arXiv
+  arxiv_year: 2026
+  github: https://github.com/szu-tera/DySem
+  highlight: 1
+
+- title: "Property Enhanced Instruction Tuning for Multi-Task Molecule Generation with Large Language Models"
+  description: "PEIT aligns molecular structures, text, and biochemical properties to create instructions for captioning, generation, property prediction, and constrained design."
+  authors: "Xuan Lin, Long Chen, Yile Wang, Yangyang Chen, Xiangxiang Zeng"
+  corresponding_authors:
+    - Yile Wang
+  image: PEIT_2026.jpg
+  links:
+    - url: https://arxiv.org/abs/2412.18084
+      display: arXiv
+    - url: https://2026.ijcai.org/accepted-papers/
+      display: IJCAI 2026
+  github: https://github.com/chenlong164/PEIT
+  highlight: 1
+
+- title: "Beyond Majority Voting: Towards Fine-grained and More Reliable Reward Signal for Test-Time Reinforcement Learning"
+  description: "SCOPE estimates step-wise consensus confidence and subgroup rewards for test-time RL, yielding finer, more reliable signals than majority voting."
+  authors: "Weiqin Wang, Yile Wang, Kehao Chen, Hui Huang"
+  corresponding_authors:
+    - Yile Wang
+  image: SCOPE_2026.png
+  links:
+    - url: https://arxiv.org/abs/2512.15146
+      display: arXiv
+    - url: https://aclanthology.org/2026.acl-long.1727/
+      display: ACL 2026
+      paper_icon: true
+  github: https://github.com/szu-tera/SCOPE
+  highlight: 1
+
+- title: "DeCoVec: Building Decoding Space based Task Vector for Large Language Models via In-Context Learning"
+  description: "DeCoVec builds decoding-space task vectors from in-context examples, steering next-token distributions to improve reasoning without weight or activation changes."
+  authors: "Feiyang Li, Yile Wang"
+  corresponding_authors:
+    - Yile Wang
+  image: DeCoVec_2026.png
+  links:
+    - url: https://arxiv.org/abs/2604.11129
+      display: arXiv
+    - url: https://aclanthology.org/2026.findings-acl.953/
+      display: ACL Findings 2026
+      paper_icon: true
+  github: https://github.com/szu-tera/DeCoVec
+  highlight: 1
+
+- title: "SemPA: Improving Sentence Embeddings of Large Language Models through Semantic Preference Alignment"
+  description: "SemPA uses paraphrase pairs to align LLM semantic preferences, improving sentence embeddings while preserving general language abilities."
+  authors: "Ziyang Chen, Zhenxuan Huang, Yile Wang, Weiqin Wang, Lu Yin, Hui Huang"
+  equal_contribution_authors:
+    - Ziyang Chen
+    - Zhenxuan Huang
+  corresponding_authors:
+    - Yile Wang
+  image: SemPA_2026.png
+  links:
+    - url: https://arxiv.org/abs/2601.05075
+      display: arXiv
+    - url: https://aclanthology.org/2026.findings-acl.1858/
+      display: ACL Findings 2026
+      paper_icon: true
+  github: https://github.com/szu-tera/SemPA
+  highlight: 1
+
+- title: "AnchorMem: Anchored Facts with Associative Contexts for Building Memory in Large Language Models"
+  description: "AnchorMem stores atomic facts as retrieval anchors while preserving their contexts, then uses associative events to build more accurate long-context memory."
+  authors: "Zhanyu Shen, Sijie Cheng, Zhicheng Guo, Weiqin Wang, Yile Wang, Hui Huang"
+  corresponding_authors:
+    - Sijie Cheng
+    - Yile Wang
+  image: AnchorMem_2026.png
+  links:
+    - url: https://arxiv.org/abs/2604.17377
+      display: arXiv
+    - url: https://aclanthology.org/2026.findings-acl.1736/
+      display: ACL Findings 2026
+      paper_icon: true
+  github: https://github.com/szu-tera/AnchorMem
+  highlight: 1
+
+- title: "Evaluating Memory Capability in Continuous Lifelog Scenario"
+  description: "LifeDialBench introduces EgoMem and LifeMem subsets and online evaluation, showing raw-text retrieval can beat complex systems when context fidelity matters."
+  authors: "Jianjie Zheng, Zhichen Liu, Zhanyu Shen, Jingxiang Qu, Guanhua Chen, Yile Wang, Yang Xu, Yang Liu, Sijie Cheng"
+  equal_contribution_authors:
+    - Jianjie Zheng
+    - Zhichen Liu
+  corresponding_authors:
+    - Guanhua Chen
+    - Sijie Cheng
+  image: LifeDialBench_2026.png
+  links:
+    - url: https://arxiv.org/abs/2604.11182
+      display: arXiv
+    - url: https://aclanthology.org/2026.findings-acl.351/
+      display: ACL Findings 2026
+      paper_icon: true
+  github: https://github.com/RayNeo-AI-2025/LifeDialBench
+  highlight: 1
+
+- title: "Assessment of Generative Named Entity Recognition in the Era of Large Language Models"
+  description: "Our study compares generative NER with encoder methods, showing modern LLM extraction remains sensitive to formats, labels, and memorization."
+  authors: "Qi Zhan, Yile Wang, Hui Huang"
+  corresponding_authors:
+    - Yile Wang
+  image: GenNER_2026.png
+  links:
+    - url: https://arxiv.org/abs/2601.17898
+      display: arXiv
+  arxiv_year: 2026
+  github: https://github.com/szu-tera/LLMs4NER
+  highlight: 1
+
+- title: "Pre-Training a Graph Recurrent Network for Text Understanding"
+  description: "We pre-train a linear-complexity graph recurrent network over token and sentence nodes, enabling attention-free English and Chinese text understanding."
+  authors: "Yile Wang, Linyi Yang, Zhiyang Teng, Ming Zhou, Yue Zhang"
+  image: GRN_TPAMI_2025.png
+  links:
+    - url: https://arxiv.org/abs/2209.03834
+      display: arXiv
+    - url: https://ieeexplore.ieee.org/document/10870153
+      display: TPAMI 2025
+      paper_icon: true
+  github: https://github.com/ylwangy/slstm_pytorch
+  highlight: 1
+
+- title: "LDIR: Low-Dimensional Dense and Interpretable Text Embeddings with Relative Representations"
+  description: "LDIR relates text to selected anchors, yielding dense, low-dimensional, interpretable embeddings competitive in similarity, retrieval, and clustering."
+  authors: "Yile Wang, Zhanyu Shen, Hui Huang"
+  corresponding_authors:
+    - Hui Huang
+  image: LDIR_2025.png
+  links:
+    - url: https://arxiv.org/abs/2505.10354
+      display: arXiv
+    - url: https://aclanthology.org/2025.findings-acl.743/
+      display: ACL Findings 2025
+      paper_icon: true
+  github: https://github.com/szu-tera/LDIR
+  highlight: 1
+
+- title: "Ranked Voting based Self-Consistency of Large Language Models"
+  description: "RVSC asks LLMs for ranked answers and aggregates them with ranked voting, improving reliability on reasoning tasks."
+  authors: "Weiqin Wang, Yile Wang, Hui Huang"
+  corresponding_authors:
+    - Yile Wang
+  image: RVSC_2025.png
+  links:
+    - url: https://arxiv.org/abs/2505.10772
+      display: arXiv
+    - url: https://aclanthology.org/2025.findings-acl.744/
+      display: ACL Findings 2025
+      paper_icon: true
+  github: https://github.com/szu-tera/RankedVotingSC
+  highlight: 1
+
+- title: "Perspective Transition of Large Language Models for Solving Subjective Tasks"
+  description: "RPT lets LLMs choose direct, role, or third-person perspectives, improving subjective reasoning across stance, sarcasm, culture, and social norms."
+  authors: "Xiaolong Wang, Yuanchi Zhang, Ziyue Wang, Yuzhuang Xu, Fuwen Luo, Yile Wang, Peng Li, Yang Liu"
+  equal_contribution_authors:
+    - Xiaolong Wang
+    - Yuanchi Zhang
+  corresponding_authors:
+    - Yile Wang
+    - Peng Li
+  image: RPT_2025.png
+  links:
+    - url: https://arxiv.org/abs/2501.09265
+      display: arXiv
+    - url: https://aclanthology.org/2025.findings-acl.502/
+      display: ACL Findings 2025
+      paper_icon: true
+  highlight: 1
+
+- title: "MUCAR: Benchmarking Multilingual Cross-Modal Ambiguity Resolution for Multimodal Large Language Models"
+  description: "MUCAR benchmarks multilingual cross-modal ambiguity resolution by pairing ambiguous texts and images, requiring MLLMs to infer one grounded interpretation."
+  authors: "Xiaolong Wang, Zhaolu Kang, Wangyuxuan Zhai, Xinyue Lou, Yunghwei Lai, Ziyue Wang, Yawen Wang, Kaiyu Huang, Yile Wang, Peng Li, Yang Liu"
+  equal_contribution_authors:
+    - Xiaolong Wang
+    - Zhaolu Kang
+    - Wangyuxuan Zhai
+  corresponding_authors:
+    - Yile Wang
+    - Peng Li
+  image: MUCAR_2025.png
+  links:
+    - url: https://arxiv.org/abs/2506.17046
+      display: arXiv
+    - url: https://aclanthology.org/2025.emnlp-main.760/
+      display: EMNLP 2025
+      paper_icon: true
+  github: https://github.com/THUNLP-MT/MUCAR
+  highlight: 1
+
+- title: "Improving Abstract Reasoning Ability of Large Language Models through Mixture Program-based Data Synthesis"
+  description: "We synthesize abstract-reasoning data from low-level code, high-level DSL programs, and shuffle augmentation, improving LLMs on ARC-style tasks."
+  authors: "Yile Wang, Hui Huang"
+  image: CCL_ARC_2025.png
+  links:
+    - url: https://aclanthology.org/2025.ccl-1.69/
+      display: CCL 2025
+      paper_icon: true
+  github: https://github.com/szu-tera/ARC
+  highlight: 1
+
+- title: "AttriLens-Mol: Attribute Guided Reinforcement Learning for Molecular Property Prediction with Large Language Models"
+  description: "AttriLens-Mol guides RL with rationality rewards for molecular attributes, helping LLMs use chemically relevant attributes in property prediction."
+  authors: "Xuan Lin, Long Chen, Yile Wang"
+  corresponding_authors:
+    - Yile Wang
+  image: AttriLensMol_2025.png
+  links:
+    - url: https://arxiv.org/abs/2508.04748
+      display: arXiv
+  arxiv_year: 2025
+  github: https://github.com/szu-tera/AttriLens-Mol
+  highlight: 1
+
+- title: "Leveraging Language-based Representations for Better Solving Symbol-related Problems with Large Language Models"
+  description: "S2L converts symbolic inputs into language-based representations, clarifying reasoning for abstract tasks, chemical property prediction, tables, and more."
+  authors: "Yile Wang, Sijie Cheng, Zixin Sun, Peng Li, Yang Liu"
+  corresponding_authors:
+    - Peng Li
+    - Yang Liu
+  image: S2L_COLING_2025.png
+  links:
+    - url: https://arxiv.org/abs/2401.11725
+      display: arXiv
+    - url: https://aclanthology.org/2025.coling-main.372/
+      display: COLING 2025
+      paper_icon: true
+  github: https://github.com/THUNLP-MT/symbol2language
+  highlight: 1

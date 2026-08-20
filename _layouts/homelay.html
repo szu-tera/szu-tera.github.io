@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% assign home_logo_1_url = "https://www.szu.edu.cn/" %}
+{% assign home_logo_2_url = "https://csse.szu.edu.cn/" %}
+{% assign home_logo_3_url = "https://vcc.tech/index" %}
+{% assign home_logo_4_url = "https://map.baidu.com/search/%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%E6%B2%A7%E6%B5%B7%E6%A0%A1%E5%8C%BA%E8%87%B4%E7%9C%9F%E6%A5%BC/@12684731.092185998,2559317.2578890715,18.66z?querytype=s&da_src=shareurl&wd=%E6%B7%B1%E5%9C%B3%E5%A4%A7%E5%AD%A6%E6%B2%A7%E6%B5%B7%E6%A0%A1%E5%8C%BA%E8%87%B4%E7%9C%9F%E6%A5%BC&c=332&src=0&pn=0&sug=0&l=13&b=(12661175,2554385;12726455,2587025)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&device_ratio=2" %}
+
+  <div id="homeid" class="col-sm-8">
+        <h1>Welcome to TeRA Lab <span class="home-title-punctuation">!</span></h1>
+
+	{{ content }}
+	<div class="home-logo-strip home-logo-strip-three" aria-label="Lab and university logos">
+	  <a href="{{ home_logo_1_url }}" class="home-logo-link" aria-label="Shenzhen University">
+	    <img src="{{ site.baseurl }}/images/logopic/SZU-logo.svg" alt="Shenzhen University">
+	    <span class="home-logo-label">Shenzhen University</span>
+	  </a>
+	  <a href="{{ home_logo_2_url }}" class="home-logo-link" aria-label="College of Computer Science and Software Engineering, Shenzhen University">
+	    <img src="{{ site.baseurl }}/images/logopic/school-logo.svg" alt="College of Computer Science and Software Engineering, Shenzhen University">
+	    <span class="home-logo-label">College of Computer Science and Software Engineering</span>
+	  </a>
+	  <a href="{{ home_logo_3_url }}" class="home-logo-link" aria-label="VCC">
+	    <img src="{{ site.baseurl }}/images/logopic/vcc-logo.png" alt="VCC">
+	    <span class="home-logo-label">Visual Computing Research Center</span>
+	  </a>
+	</div>
+  </div>
+  <div id="newsid" class="col-sm-4" >
+	{% include news.html %}
+	  <div class="well location-panel">
+	    <a href="{{ home_logo_4_url | escape }}" class="location-map-link" aria-label="百度地图：深圳大学沧海校区致真楼">
+	      <img class="location-map-image" src="{{ site.baseurl }}/images/logopic/location-map.png" alt="深圳大学沧海校区致真楼地图位置">
+	    </a>
+	    <p class="location-address">
+	      <a href="{{ home_logo_4_url | escape }}">L6-713, Zhizhen Building, Canghai Campus of Shenzhen University</a>
+	    </p>
+	    <p class="location-map-credit">Map tiles &copy; OpenStreetMap contributors</p>
+	  </div>
+  </div>
