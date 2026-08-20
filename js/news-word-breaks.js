@@ -1,6 +1,7 @@
 (function () {
   var SOFT_HYPHEN = "\u00ad";
   var WORD_PATTERN = /[A-Za-z]{4,}/g;
+  var mobileQuery = window.matchMedia("(max-width: 767px)");
 
   function addBreaksToWord(word) {
     if (word.indexOf(SOFT_HYPHEN) !== -1) {
@@ -24,10 +25,26 @@
     });
   }
 
-  function addNewsWordBreaks() {
+  function removeSoftHyphens(element) {
+    Array.prototype.forEach.call(element.childNodes, function (node) {
+      if (node.nodeType === 3) {
+        node.nodeValue = node.nodeValue.split(SOFT_HYPHEN).join("");
+      } else if (node.nodeType === 1 && !node.classList.contains("news-date")) {
+        removeSoftHyphens(node);
+      }
+    });
+  }
+
+  function updateNewsWordBreaks() {
     var newsItems = document.querySelectorAll("#newsid .news-list li");
 
     Array.prototype.forEach.call(newsItems, function (item) {
+      if (mobileQuery.matches) {
+        removeSoftHyphens(item);
+        item.removeAttribute("data-soft-hyphenated");
+        return;
+      }
+
       if (item.getAttribute("data-soft-hyphenated") === "true") {
         return;
       }
@@ -38,8 +55,14 @@
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", addNewsWordBreaks);
+    document.addEventListener("DOMContentLoaded", updateNewsWordBreaks);
   } else {
-    addNewsWordBreaks();
+    updateNewsWordBreaks();
+  }
+
+  if (mobileQuery.addEventListener) {
+    mobileQuery.addEventListener("change", updateNewsWordBreaks);
+  } else {
+    mobileQuery.addListener(updateNewsWordBreaks);
   }
 }());

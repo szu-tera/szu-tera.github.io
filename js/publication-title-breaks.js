@@ -2,6 +2,7 @@
   var SOFT_HYPHEN = "\u00ad";
   var MIN_WORD_LENGTH = 8;
   var LONG_WORD_PATTERN = /[A-Za-z][A-Za-z-]{7,}/g;
+  var mobileQuery = window.matchMedia("(max-width: 767px)");
 
   function hyphenateWordPart(part) {
     if (part.length < MIN_WORD_LENGTH || /^[A-Z0-9]+$/.test(part)) {
@@ -35,10 +36,26 @@
     });
   }
 
-  function hyphenatePublicationTitles() {
+  function removeSoftHyphens(element) {
+    Array.prototype.forEach.call(element.childNodes, function (node) {
+      if (node.nodeType === 3) {
+        node.nodeValue = node.nodeValue.split(SOFT_HYPHEN).join("");
+      } else if (node.nodeType === 1) {
+        removeSoftHyphens(node);
+      }
+    });
+  }
+
+  function updatePublicationTitleBreaks() {
     var titles = document.querySelectorAll(".publication-title-text");
 
     Array.prototype.forEach.call(titles, function (title) {
+      if (mobileQuery.matches) {
+        removeSoftHyphens(title);
+        title.removeAttribute("data-soft-hyphenated");
+        return;
+      }
+
       if (title.getAttribute("data-soft-hyphenated") === "true") {
         return;
       }
@@ -49,8 +66,14 @@
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", hyphenatePublicationTitles);
+    document.addEventListener("DOMContentLoaded", updatePublicationTitleBreaks);
   } else {
-    hyphenatePublicationTitles();
+    updatePublicationTitleBreaks();
+  }
+
+  if (mobileQuery.addEventListener) {
+    mobileQuery.addEventListener("change", updatePublicationTitleBreaks);
+  } else {
+    mobileQuery.addListener(updatePublicationTitleBreaks);
   }
 }());

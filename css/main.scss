@@ -323,6 +323,16 @@ p.byline {
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 1.35;
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	text-align: left;
+	text-align-last: left;
+}
+
+.publication-author-unit {
+	display: inline-block;
+	white-space: nowrap;
 }
 
 .publication-lab-author {
@@ -331,14 +341,13 @@ p.byline {
 }
 
 .publication-author-note {
+	display: inline-block;
 	margin-left: 1px;
 	color: #555555;
-	font-size: 90%;
+	font-size: 75%;
 	font-weight: 700;
 	line-height: 1;
-	position: relative;
-	top: -0.18em;
-	vertical-align: baseline;
+	vertical-align: super;
 }
 
 .publication-venue {
@@ -1230,4 +1239,39 @@ body.home-page #homeid .research-thrust-card p {
 
 #footer .panel-footer {
 	border-top: 0;
+}
+
+/* Mobile browsers vary widely in automatic hyphenation behavior. Use ordinary
+   justification without generated hyphens on narrow screens. */
+@media (max-width: 767px) {
+	html,
+	body > .container-fluid p,
+	body > .container-fluid li,
+	.publication-title,
+	.publication-authors,
+	.publication-venue,
+	.publication-description,
+	.publication-note {
+		-webkit-hyphens: none;
+		-ms-hyphens: none;
+		hyphens: none;
+		word-break: normal;
+		overflow-wrap: break-word;
+	}
+
+	body > .container-fluid p,
+	body > .container-fluid li,
+	.publication-description,
+	.publication-note {
+		text-align: justify;
+		text-align-last: left;
+		text-justify: inter-word;
+	}
+
+	.publication-title,
+	.publication-authors,
+	.publication-venue {
+		text-align: left;
+		text-align-last: left;
+	}
 }
