@@ -17,10 +17,6 @@ include:
   - .htaccess
   - _pages
 
-exclude:
-  - research.md
-  - "research 2.md"
-
 sass:
   sass_dir: _sass
 
