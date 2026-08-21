@@ -1,3 +1,34 @@
+- title: "DySem: Uncovering Dynamic Semantic Components of Large Language Models for Calculating Semantic Textual Similarity"
+  description: "Training-free DySem uses multilingual consensus to find sample-specific semantic components and compute similarity via dynamic dimensions, not hidden states."
+  authors: "Kaijie Zheng, Weiqin Wang, Yile Wang, Hui Huang"
+  equal_contribution_authors:
+    - Kaijie Zheng
+    - Weiqin Wang
+  corresponding_authors:
+    - Yile Wang
+  image: DySem_2026.png
+  links:
+    - url: https://arxiv.org/abs/2605.29751
+      display: arXiv
+    - url: https://arxiv.org/abs/2605.29751
+      display: EMNLP 2026
+  github: https://github.com/szu-tera/DySem
+  highlight: 1
+
+- title: "Assessment of Generative Named Entity Recognition in the Era of Large Language Models"
+  description: "Our study compares generative NER with encoder methods, showing modern LLM extraction remains sensitive to formats, labels, and memorization."
+  authors: "Qi Zhan, Yile Wang, Hui Huang"
+  corresponding_authors:
+    - Yile Wang
+  image: GenNER_2026.png
+  links:
+    - url: https://arxiv.org/abs/2601.17898
+      display: arXiv
+    - url: https://arxiv.org/abs/2601.17898
+      display: EMNLP Findings 2026
+  github: https://github.com/szu-tera/LLMs4NER
+  highlight: 1
+
 - title: "DiARC: Distinguishing Positive and Negative Samples Helps Improving ARC-like Reasoning Ability of Large Language Models"
   description: "DiARC creates ARC preference pairs via output transformations, DSL inversions, and targeted edits, helping LLMs reject near-miss solutions and induce rules."
   authors: "Yuxuan Yang, Feiyang Li, Yile Wang"
@@ -12,22 +43,6 @@
       display: arXiv
   arxiv_year: 2026
   github: https://github.com/szu-tera/DiARC
-  highlight: 1
-
-- title: "DySem: Uncovering Dynamic Semantic Components of Large Language Models for Calculating Semantic Textual Similarity"
-  description: "Training-free DySem uses multilingual consensus to find sample-specific semantic components and compute similarity via dynamic dimensions, not hidden states."
-  authors: "Kaijie Zheng, Weiqin Wang, Yile Wang, Hui Huang"
-  equal_contribution_authors:
-    - Kaijie Zheng
-    - Weiqin Wang
-  corresponding_authors:
-    - Yile Wang
-  image: DySem_2026.png
-  links:
-    - url: https://arxiv.org/abs/2605.29751
-      display: arXiv
-  arxiv_year: 2026
-  github: https://github.com/szu-tera/DySem
   highlight: 1
 
 - title: "Property Enhanced Instruction Tuning for Multi-Task Molecule Generation with Large Language Models"
@@ -125,19 +140,6 @@
       display: ACL Findings 2026
       paper_icon: true
   github: https://github.com/RayNeo-AI-2025/LifeDialBench
-  highlight: 1
-
-- title: "Assessment of Generative Named Entity Recognition in the Era of Large Language Models"
-  description: "Our study compares generative NER with encoder methods, showing modern LLM extraction remains sensitive to formats, labels, and memorization."
-  authors: "Qi Zhan, Yile Wang, Hui Huang"
-  corresponding_authors:
-    - Yile Wang
-  image: GenNER_2026.png
-  links:
-    - url: https://arxiv.org/abs/2601.17898
-      display: arXiv
-  arxiv_year: 2026
-  github: https://github.com/szu-tera/LLMs4NER
   highlight: 1
 
 - title: "Pre-Training a Graph Recurrent Network for Text Understanding"
