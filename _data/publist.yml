@@ -51,7 +51,7 @@
   image: PEIT_2026.jpg
   links:
     - url: https://arxiv.org/abs/2412.18084
-      display: arXiv
+      display: IJCAI 2026
       paper_icon: true
   github: https://github.com/chenlong164/PEIT
   highlight: 1
