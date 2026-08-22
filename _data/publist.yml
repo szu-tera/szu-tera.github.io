@@ -9,9 +9,8 @@
   image: DySem_2026.png
   links:
     - url: https://arxiv.org/abs/2605.29751
-      display: arXiv
-    - url: https://arxiv.org/abs/2605.29751
       display: EMNLP 2026
+      paper_icon: true
   github: https://github.com/szu-tera/DySem
   highlight: 1
 
@@ -23,9 +22,8 @@
   image: GenNER_2026.png
   links:
     - url: https://arxiv.org/abs/2601.17898
-      display: arXiv
-    - url: https://arxiv.org/abs/2601.17898
       display: EMNLP Findings 2026
+      paper_icon: true
   github: https://github.com/szu-tera/LLMs4NER
   highlight: 1
 
@@ -41,6 +39,7 @@
   links:
     - url: https://arxiv.org/abs/2606.26530
       display: arXiv
+      paper_icon: true
   arxiv_year: 2026
   github: https://github.com/szu-tera/DiARC
   highlight: 1
@@ -54,8 +53,7 @@
   links:
     - url: https://arxiv.org/abs/2412.18084
       display: arXiv
-    - url: https://2026.ijcai.org/accepted-papers/
-      display: IJCAI 2026
+      paper_icon: true
   github: https://github.com/chenlong164/PEIT
   highlight: 1
 
@@ -66,8 +64,6 @@
     - Yile Wang
   image: SCOPE_2026.png
   links:
-    - url: https://arxiv.org/abs/2512.15146
-      display: arXiv
     - url: https://aclanthology.org/2026.acl-long.1727/
       display: ACL 2026
       paper_icon: true
@@ -81,8 +77,6 @@
     - Yile Wang
   image: DeCoVec_2026.png
   links:
-    - url: https://arxiv.org/abs/2604.11129
-      display: arXiv
     - url: https://aclanthology.org/2026.findings-acl.953/
       display: ACL Findings 2026
       paper_icon: true
@@ -99,8 +93,6 @@
     - Yile Wang
   image: SemPA_2026.png
   links:
-    - url: https://arxiv.org/abs/2601.05075
-      display: arXiv
     - url: https://aclanthology.org/2026.findings-acl.1858/
       display: ACL Findings 2026
       paper_icon: true
@@ -115,8 +107,6 @@
     - Yile Wang
   image: AnchorMem_2026.png
   links:
-    - url: https://arxiv.org/abs/2604.17377
-      display: arXiv
     - url: https://aclanthology.org/2026.findings-acl.1736/
       display: ACL Findings 2026
       paper_icon: true
@@ -134,8 +124,6 @@
     - Sijie Cheng
   image: LifeDialBench_2026.png
   links:
-    - url: https://arxiv.org/abs/2604.11182
-      display: arXiv
     - url: https://aclanthology.org/2026.findings-acl.351/
       display: ACL Findings 2026
       paper_icon: true
@@ -147,10 +135,8 @@
   authors: "Yile Wang, Linyi Yang, Zhiyang Teng, Ming Zhou, Yue Zhang"
   image: GRN_TPAMI_2025.png
   links:
-    - url: https://arxiv.org/abs/2209.03834
-      display: arXiv
     - url: https://ieeexplore.ieee.org/document/10870153
-      display: TPAMI 2025
+      display: IEEE TPAMI 2025
       paper_icon: true
   github: https://github.com/ylwangy/slstm_pytorch
   highlight: 1
@@ -162,8 +148,6 @@
     - Hui Huang
   image: LDIR_2025.png
   links:
-    - url: https://arxiv.org/abs/2505.10354
-      display: arXiv
     - url: https://aclanthology.org/2025.findings-acl.743/
       display: ACL Findings 2025
       paper_icon: true
@@ -177,8 +161,6 @@
     - Yile Wang
   image: RVSC_2025.png
   links:
-    - url: https://arxiv.org/abs/2505.10772
-      display: arXiv
     - url: https://aclanthology.org/2025.findings-acl.744/
       display: ACL Findings 2025
       paper_icon: true
@@ -196,8 +178,6 @@
     - Peng Li
   image: RPT_2025.png
   links:
-    - url: https://arxiv.org/abs/2501.09265
-      display: arXiv
     - url: https://aclanthology.org/2025.findings-acl.502/
       display: ACL Findings 2025
       paper_icon: true
@@ -215,8 +195,6 @@
     - Peng Li
   image: MUCAR_2025.png
   links:
-    - url: https://arxiv.org/abs/2506.17046
-      display: arXiv
     - url: https://aclanthology.org/2025.emnlp-main.760/
       display: EMNLP 2025
       paper_icon: true
