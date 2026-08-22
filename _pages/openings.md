@@ -36,7 +36,7 @@ permalink: /join-us/
       </div>
 
       <div class="join-us-faq">
-        <h2>Q: What is the difference between academic master’s and professional master’s students?</h2>
+        <h2>Q: What is the difference between professional master’s and academic master’s students?</h2>
         <p><strong>A:</strong> There are differences in course and degree requirements, but we do not differentiate between them within our group.</p>
       </div>
 
@@ -101,7 +101,7 @@ permalink: /join-us/
       </div>
 
       <div class="join-us-faq">
-        <h2>Q：学术型硕士和专业型硕士有什么区别？</h2>
+        <h2>Q：专业型硕士和学术型硕士有什么区别？</h2>
         <p><strong>A：</strong>修读课程等方面有区别，课题组内不区别对待。</p>
       </div>
 
