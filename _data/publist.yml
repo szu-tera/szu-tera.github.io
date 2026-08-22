@@ -255,8 +255,6 @@
     - Yang Liu
   image: S2L_COLING_2025.png
   links:
-    - url: https://arxiv.org/abs/2401.11725
-      display: arXiv
     - url: https://aclanthology.org/2025.coling-main.372/
       display: COLING 2025
       paper_icon: true

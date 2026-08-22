@@ -42,7 +42,12 @@ permalink: /join-us/
 
       <div class="join-us-faq">
         <h2>Q: Does the group have sufficient funding and computing resources to support research?</h2>
-        <p><strong>A:</strong> We have adequate funding and computing resources.</p>
+        <p><strong>A:</strong> We have adequate funding and computing resources to support your research.</p>
+      </div>
+
+      <div class="join-us-faq">
+        <h2>Q：Does the research group require students to join in advance?</h2>
+        <p><strong>A：</strong>We suggest and support early involvement during the undergraduate stage to carry out related research.</p>
       </div>
 
       <div class="join-us-faq">
@@ -52,7 +57,7 @@ permalink: /join-us/
 
       <div class="join-us-faq">
         <h2>Q: I am very interested in the group’s research directions, but I lack some background knowledge. How should I start learning?</h2>
-        <p><strong>A:</strong> We recommend exploring existing online resources on natural language processing and large language models, such as open courses from <a href="https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=9af6f23fd8548f587f7b8b3ef558f511">Tsinghua University</a>, <a href="https://space.bilibili.com/3546823125895398/lists/4470210?type=season">Zhejiang University</a>, <a href="https://www.bilibili.com/video/BV1wCPmzPEpE/?spm_id_from=333.337.search-card.all.click&amp;vd_source=9af6f23fd8548f587f7b8b3ef558f511">Westlake University</a>, and <a href="https://www.youtube.com/watch?v=MM48kc5Zq8A&amp;list=PL8PYTP1V4I8D4BeyjwWczukWq9d8PNyZp">CMU</a>, as well as books like <a href="https://llmbook-zh.github.io/">Large Language Model</a> (Renmin University) and <a href="https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf">Large Language Models: From Theory to Practice</a> (Fudan University).</p>
+        <p><strong>A:</strong> We recommend exploring existing online resources on natural language processing and large language models, such as open courses from <a href="https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=9af6f23fd8548f587f7b8b3ef558f511">Tsinghua University</a>, <a href="https://space.bilibili.com/3546823125895398/lists/4470210?type=season">Zhejiang University</a>, <a href="https://www.bilibili.com/video/BV1wCPmzPEpE/?spm_id_from=333.337.search-card.all.click&amp;vd_source=9af6f23fd8548f587f7b8b3ef558f511">Westlake University</a>, and <a href="https://www.youtube.com/watch?v=MM48kc5Zq8A&amp;list=PL8PYTP1V4I8D4BeyjwWczukWq9d8PNyZp">Carnegie Mellon University</a>, as well as books like <a href="https://llmbook-zh.github.io/">Large Language Model</a> (Renmin University of China) and <a href="https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf">Large Language Models: From Theory to Practice</a> (Fudan University).</p>
       </div>
     </section>
 
@@ -102,7 +107,12 @@ permalink: /join-us/
 
       <div class="join-us-faq">
         <h2>Q：课题组是否有经费和计算资源支持科研？</h2>
-        <p><strong>A：</strong>经费和计算资源充分。</p>
+        <p><strong>A：</strong>经费和计算资源可以支持相关研究。</p>
+      </div>
+
+      <div class="join-us-faq">
+        <h2>Q：课题组是否要求提前进组？</h2>
+        <p><strong>A：</strong>建议并支持在本科阶段提前进组开展相关研究。</p>
       </div>
 
       <div class="join-us-faq">
@@ -112,7 +122,7 @@ permalink: /join-us/
 
       <div class="join-us-faq">
         <h2>Q：我对课题组研究方向很感兴趣，但缺乏一些基础，应该如何进行学习？</h2>
-        <p><strong>A：</strong>建议查找已有的自然语言处理和大语言模型相关线上资源进行学习。例如：<a href="https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=9af6f23fd8548f587f7b8b3ef558f511">清华大学公开课</a>、<a href="https://space.bilibili.com/3546823125895398/lists/4470210?type=season">浙江大学公开课</a>、<a href="https://www.bilibili.com/video/BV1wCPmzPEpE/?spm_id_from=333.337.search-card.all.click&amp;vd_source=9af6f23fd8548f587f7b8b3ef558f511">西湖大学公开课</a>、<a href="https://www.youtube.com/watch?v=MM48kc5Zq8A&amp;list=PL8PYTP1V4I8D4BeyjwWczukWq9d8PNyZp">CMU公开课</a>、人大《<a href="https://llmbook-zh.github.io/">大语言模型</a>》、复旦《<a href="https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf">大规模语言模型：从理论到实践</a>》等。</p>
+        <p><strong>A：</strong>建议查找已有的自然语言处理和大语言模型相关线上资源进行学习。例如：<a href="https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=9af6f23fd8548f587f7b8b3ef558f511">清华大学公开课</a>、<a href="https://space.bilibili.com/3546823125895398/lists/4470210?type=season">浙江大学公开课</a>、<a href="https://www.bilibili.com/video/BV1wCPmzPEpE/?spm_id_from=333.337.search-card.all.click&amp;vd_source=9af6f23fd8548f587f7b8b3ef558f511">西湖大学公开课</a>、<a href="https://www.youtube.com/watch?v=MM48kc5Zq8A&amp;list=PL8PYTP1V4I8D4BeyjwWczukWq9d8PNyZp">卡内基梅隆大学公开课</a>、中国人民大学《<a href="https://llmbook-zh.github.io/">大语言模型</a>》、复旦大学《<a href="https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf">大规模语言模型：从理论到实践</a>》等。</p>
       </div>
     </section>
 
@@ -128,7 +138,7 @@ permalink: /join-us/
     </section>
 
     <section class="join-us-section">
-      <h1>毕业设计指导</h1>
+      <h1>本科毕业设计指导</h1>
       <p>每年指导3-5名本科生开展毕业设计，请有意向的同学提前交流感兴趣的方向和选题。</p>
     </section>
   </div>

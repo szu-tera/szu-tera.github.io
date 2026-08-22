@@ -13,17 +13,17 @@
 
 ## 👋 Welcome to TeRA Lab
 
-Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computing Center, College of Computer Science and Software Engineering, Shenzhen University. TeRA is dedicated to research in natural language processing and large language models, exploring text-oriented AI technologies such as reasoning, representation, analysis, and agents.
+Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computing Center, College of Computer Science and Software Engineering, Shenzhen University. TeRA is dedicated to research in natural language processing and large language models, exploring text-oriented advanced AI technologies such as reasoning, representation, analysis, and agents.
 
 ## 🔬 What We Work On
 
 ### 🧠 Reasoning
 
-Strengthening LLM reasoning by fine-tuning, reinforcement learning, and inference scaling for diverse solutions and robust inference.
+Strengthening LLM reasoning by fine-tuning, reinforcement learning and inference scaling for diverse solutions and robust inference.
 
 ### 🧩 Representation
 
-Building compact, effective representations and keeping them interpretable across tasks such as retrieval and semantic similarity.
+Building compact, effective representations and keeping them interpretable across tasks, such as retrieval and generation.
 
 ### 🔎 Analysis
 
@@ -35,9 +35,9 @@ Designing memory, tool use, and interactions for long-context AI agents that act
 
 ## 🎓 Join Us
 
-We recruit several incoming master's and PhD students each year and also welcome undergraduate students as research interns.
+We recruit several incoming Master and PhD students and also undergraduate students as interns each year.
 
-Please visit our [Join Us page](https://szu-tera.github.io/join-us/) for admission information, requirements, recommended learning resources, and frequently asked questions.
+Please visit our [Join Us page](https://szu-tera.github.io/join-us/) for details.
 
 ## 🏫 Affiliations
 

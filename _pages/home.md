@@ -9,7 +9,7 @@ permalink: /
 
 
 <!-- TeRA Lab is a research group led by Dr. Yile Wang at the College of Computer Science and Software Engineering, Shenzhen University. The lab is dedicated to fundamental and applied research in natural language processing (NLP) and artificial intelligence, with a core focus on four pillars: Text Representation, Reasoning, Analysis, and Agent technologies. Our mission is to advance the frontiers of large language models (LLMs) through both theoretical insights and innovative applications. -->
-Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computing Center, College of Computer Science and Software Engineering, Shenzhen University. TeRA is dedicated to research in natural language processing and large language models, exploring text-oriented AI technologies such as reasoning, representation, analysis, and agents.
+Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computing Center, College of Computer Science and Software Engineering, Shenzhen University. TeRA is dedicated to research in natural language processing and large language models, exploring text-oriented advanced AI technologies such as reasoning, representation, analysis, and agents.
 
 <p class="home-recruitment-note">We recruit several incoming Master&amp;PhD students and also undergraduate students as interns each year. See page <a href="{{ site.baseurl }}/join-us/">join us</a> for details.</p>
 
@@ -142,7 +142,7 @@ Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computi
       <div class="research-thrust-mark" aria-hidden="true">R</div>
       <div>
         <h3>Representation</h3>
-        <p>Building compact, effective representations and keeping them interpretable across tasks, such as retrieval and semantic similarity.</p>
+        <p>Building compact, effective representations and keeping them interpretable across tasks, such as retrieval and generation.</p>
       </div>
     </article>
     <article class="research-thrust-card thrust-analysis">
