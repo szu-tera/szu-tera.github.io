@@ -38,9 +38,8 @@
   image: DiARC_2026.png
   links:
     - url: https://arxiv.org/abs/2606.26530
-      display: arXiv
+      display: arXiv 2026
       paper_icon: true
-  arxiv_year: 2026
   github: https://github.com/szu-tera/DiARC
   highlight: 1
 
@@ -220,8 +219,7 @@
   image: AttriLensMol_2025.png
   links:
     - url: https://arxiv.org/abs/2508.04748
-      display: arXiv
-  arxiv_year: 2025
+      display: arXiv 2025
   github: https://github.com/szu-tera/AttriLens-Mol
   highlight: 1
 
