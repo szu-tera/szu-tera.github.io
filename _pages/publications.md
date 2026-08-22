@@ -10,7 +10,7 @@ permalink: /publications/
 
 # Publications
 
-<p class="publication-legend">Team members are <span class="publication-lab-author">underlined</span>. * Equal contribution. # Corresponding author.</p>
+<p class="publication-legend">Team members are <span class="publication-lab-author">underlined</span>. * Equal contribution. <sup>#</sup> Corresponding author.</p>
 
 <div class="publication-list">
 {% capture lab_author_names %}{% for member in site.data.team_members %}{% assign member_name = member.name | strip_html | split: "," | first | strip | downcase %}|{{ member_name }}{% endfor %}{% for member in site.data.students %}{% assign member_name = member.name | strip_html | split: "," | first | strip | downcase %}|{{ member_name }}{% endfor %}{% for member in site.data.visiting_interns %}{% assign member_name = member.name | strip_html | split: "," | first | strip | downcase %}|{{ member_name }}{% endfor %}|{% endcapture %}
