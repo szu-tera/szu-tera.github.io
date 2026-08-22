@@ -350,14 +350,14 @@ p.byline {
 	vertical-align: super;
 }
 
-// .publication-equal-contribution-author {
-// 	position: relative;
-// 	top: 1px;
-// 	margin-left: 1px;
-// 	font-size: 105%;
-// 	transform: scaleY(1.05);
-// 	transform-origin: center bottom;
-// }
+.publication-equal-contribution-author {
+	position: relative;
+	top: 0;
+	margin-left: 1px;
+	font-size: 105%;
+	transform: scaleY(1.05);
+	transform-origin: center bottom;
+}
 
 .publication-venue {
 	margin: 0 0 5px;
