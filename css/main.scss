@@ -351,12 +351,16 @@ p.byline {
 }
 
 .publication-equal-contribution-author {
-	position: relative;
-	top: 0;
+	display: inline;
+	vertical-align: baseline;   
+	font-size: inherit;        
 	margin-left: 1px;
-	font-size: 105%;
-	transform: scaleY(1.05);
-	transform-origin: center bottom;
+	// position: relative;
+	// top: 0;
+	// margin-left: 1px;
+	// font-size: 105%;
+	// transform: scaleY(1.05);
+	// transform-origin: center bottom;
 }
 
 .publication-venue {
