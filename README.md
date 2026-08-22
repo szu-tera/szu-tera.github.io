@@ -37,7 +37,7 @@ Designing memory, tool use, and interactions for long-context AI agents that act
 
 We recruit several incoming Master and PhD students and also undergraduate students as interns each year.
 
-Please visit our [Join Us page](https://szu-tera.github.io/join-us/) for details.
+See page [Join Us](https://szu-tera.github.io/join-us/) for details.
 
 ## 🏫 Affiliations
 
