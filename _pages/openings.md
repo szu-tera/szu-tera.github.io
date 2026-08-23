@@ -128,7 +128,7 @@ permalink: /join-us/
 
     <section class="join-us-section">
       <h1>本科实习生</h1>
-      <p>我们欢迎有高度自驱力的本科生同学加入实验室开展相关科研活动，我们希望您：</p>
+      <p>我们欢迎有高度自驱力的本科生同学加入实验室开展相关科研活动，我们希望招收的本科生：</p>
       <ol class="join-us-alpha-list join-us-flush-list">
         <li>对组内研究方向充满兴趣；</li>
         <li>具备较好的沟通表达能力；</li>
