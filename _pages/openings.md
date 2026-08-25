@@ -46,8 +46,8 @@ permalink: /join-us/
       </div>
 
       <div class="join-us-faq">
-        <h2>Q：Does the research group require students to join in advance?</h2>
-        <p><strong>A：</strong>We suggest and support early involvement during the undergraduate stage to carry out related research.</p>
+        <h2>Q: Does the group require students to join in advance?</h2>
+        <p><strong>A:</strong> We suggest and support early involvement during the undergraduate stage to carry out related research.</p>
       </div>
 
       <div class="join-us-faq">
