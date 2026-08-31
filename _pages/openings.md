@@ -37,7 +37,7 @@ permalink: /join-us/
 
       <div class="join-us-faq">
         <h2>Q: What is the difference between professional master’s and academic master’s students?</h2>
-        <p><strong>A:</strong> There are differences in course and degree requirements, but we do not differentiate between them within our group.</p>
+        <p><strong>A:</strong> There are minor differences in major settings and course offerings, but there is no discriminatory treatment within the our group.</p>
       </div>
 
       <div class="join-us-faq">
@@ -57,7 +57,7 @@ permalink: /join-us/
 
       <div class="join-us-faq">
         <h2>Q: I am very interested in the group’s research directions, but I lack some background knowledge. How should I start learning?</h2>
-        <p><strong>A:</strong> We recommend exploring existing online resources on natural language processing and large language models, such as open courses from <a href="https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=9af6f23fd8548f587f7b8b3ef558f511">Tsinghua University</a>, <a href="https://space.bilibili.com/3546823125895398/lists/4470210?type=season">Zhejiang University</a>, <a href="https://www.bilibili.com/video/BV1wCPmzPEpE/?spm_id_from=333.337.search-card.all.click&amp;vd_source=9af6f23fd8548f587f7b8b3ef558f511">Westlake University</a>, and <a href="https://www.youtube.com/watch?v=MM48kc5Zq8A&amp;list=PL8PYTP1V4I8D4BeyjwWczukWq9d8PNyZp">Carnegie Mellon University</a>, as well as books like <a href="https://llmbook-zh.github.io/">Large Language Model</a> (Renmin University of China) and <a href="https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf">Large Language Models: From Theory to Practice</a> (Fudan University).</p>
+        <p><strong>A:</strong> We recommend exploring existing online resources on natural language processing and large language models, such as open courses from <a href="https://www.bilibili.com/video/BV1UG411p7zv/?vd_source=9af6f23fd8548f587f7b8b3ef558f511">Tsinghua University</a>, <a href="https://space.bilibili.com/3546823125895398/lists/4470210?type=season">Zhejiang University</a>, <a href="https://www.bilibili.com/video/BV1wCPmzPEpE/?spm_id_from=333.337.search-card.all.click&amp;vd_source=9af6f23fd8548f587f7b8b3ef558f511">Westlake University</a>, and <a href="https://www.youtube.com/watch?v=MM48kc5Zq8A&amp;list=PL8PYTP1V4I8D4BeyjwWczukWq9d8PNyZp">Carnegie Mellon University</a>, as well as books like <a href="https://llmbook-zh.github.io/">Large Language Model</a> (Renmin University of China) and <a href="https://intro-llm.github.io/chapter/LLM-TAP-v2.pdf">Large Language Model: From Theory to Practice</a> (Fudan University).</p>
       </div>
     </section>
 
@@ -102,7 +102,7 @@ permalink: /join-us/
 
       <div class="join-us-faq">
         <h2>Q：专业型硕士和学术型硕士有什么区别？</h2>
-        <p><strong>A：</strong>修读课程等方面有区别，课题组内不区别对待。</p>
+        <p><strong>A：</strong>专业设置和修读课程等方面有较小区别，课题组内不区别对待。</p>
       </div>
 
       <div class="join-us-faq">
