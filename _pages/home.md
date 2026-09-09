@@ -135,14 +135,14 @@ Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computi
       <div class="research-thrust-mark" aria-hidden="true">R</div>
       <div>
         <h3>Reasoning</h3>
-        <p>Strengthening LLM reasoning by fine-tuning, reinforcement learning and inference scaling for diverse solutions and robust inference.</p>
+        <p>Strengthening LLM by fine-tuning, reinforcement learning and test-time scaling for powerful and robust reasoning ability.</p>
       </div>
     </article>
     <article class="research-thrust-card thrust-text">
       <div class="research-thrust-mark" aria-hidden="true">R</div>
       <div>
         <h3>Representation</h3>
-        <p>Building compact, effective representations and keeping them interpretable across tasks, such as retrieval and generation.</p>
+        <p>Building compact, effective, and interpretable text representations for tasks such as retrieval and generation.</p>
       </div>
     </article>
     <article class="research-thrust-card thrust-analysis">

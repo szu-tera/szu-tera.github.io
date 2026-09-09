@@ -130,7 +130,7 @@
   highlight: 1
 
 - title: "Pre-Training a Graph Recurrent Network for Text Understanding"
-  description: "We pre-train a linear-complexity graph recurrent network over token and sentence nodes, enabling attention-free English and Chinese text understanding."
+  description: "We pre-train a linear-complexity graph recurrent network over token and sentence nodes, building an attention-free model for better text understanding tasks."
   authors: "Yile Wang, Linyi Yang, Zhiyang Teng, Ming Zhou, Yue Zhang"
   image: GRN_TPAMI_2025.png
   links:
@@ -154,7 +154,7 @@
   highlight: 1
 
 - title: "Ranked Voting based Self-Consistency of Large Language Models"
-  description: "RVSC asks LLMs for ranked answers and aggregates them with ranked voting, improving reliability on reasoning tasks."
+  description: "Beyond majority voting based self-consistency, we elicit ranked answers and aggregates them with ranked voting, improving reliability on reasoning tasks."
   authors: "Weiqin Wang, Yile Wang, Hui Huang"
   corresponding_authors:
     - Yile Wang
