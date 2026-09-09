@@ -130,7 +130,7 @@
   highlight: 1
 
 - title: "Pre-Training a Graph Recurrent Network for Text Understanding"
-  description: "We pre-train a linear-complexity graph recurrent network over token and sentence nodes, building an attention-free model for better text understanding tasks."
+  description: "We pre-train a linear-complexity graph recurrent network over token and sentence nodes, building an attention-free model for better solving text understanding tasks."
   authors: "Yile Wang, Linyi Yang, Zhiyang Teng, Ming Zhou, Yue Zhang"
   image: GRN_TPAMI_2025.png
   links:
