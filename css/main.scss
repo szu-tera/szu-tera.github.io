@@ -117,6 +117,7 @@ input[type="reset"]:focus-visible {
 /* Top navigation bar */
 
 .navbar {
+	font-family: Arial, sans-serif;
 	min-height: $lab-navbar-height;
 }
 
@@ -825,6 +826,39 @@ body.home-page #homeid .research-thrust-card p {
 	}
 }
 
+/* Shared primary page title (People, Publications, and Join Us) */
+#gridid > h1:first-child,
+.join-us-primary-heading > h1 {
+	padding: 0;
+	border-bottom: 0;
+	color: #333333;
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 1.1;
+}
+
+#gridid > h1:first-child {
+	margin: 20px 0 10px;
+}
+
+.join-us-primary-heading {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	margin: 20px 0 10px;
+}
+
+.join-us-primary-heading > h1 {
+	flex: 1 1 auto;
+	min-width: 0;
+	margin: 0;
+}
+
+.join-us-primary-heading > h1[hidden] {
+	display: none;
+}
+
 /* Team & Publications */
 #gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
 #homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
@@ -1127,18 +1161,16 @@ body.home-page #homeid .research-thrust-card p {
 .join-us-page {
 	position: relative;
 	margin: 0 auto;
-	padding: 20px 15px 46px 0;
+	padding: 0 15px 46px 0;
 }
 
 .join-us-toolbar {
-	position: absolute;
-	top: 22px;
-	right: 15px;
-	z-index: 1;
 	display: flex;
+	flex: 0 0 auto;
 	align-items: center;
 	gap: 8px;
 	min-height: 30px;
+	margin-left: auto;
 	font-size: 15px;
 }
 
@@ -1189,10 +1221,6 @@ body.home-page #homeid .research-thrust-card p {
 	font-weight: 700;
 }
 
-.join-us-content .join-us-section:first-child > h1 {
-	padding-right: 150px;
-}
-
 .join-us-section p,
 .join-us-section li {
 	font-size: 16px;
@@ -1241,20 +1269,13 @@ body.home-page #homeid .research-thrust-card p {
 
 @media (max-width: 767px) {
 	.join-us-page {
-		padding-top: 12px;
-	}
-
-	.join-us-toolbar {
-		top: 15px;
+		padding-top: 0;
 	}
 
 	.join-us-section > h1 {
 		font-size: 24px;
 	}
 
-	.join-us-content .join-us-section:first-child > h1 {
-		padding-right: 132px;
-	}
 }
 
 /* Footer */
