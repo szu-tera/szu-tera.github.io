@@ -7,15 +7,18 @@ permalink: /join-us/
 ---
 
 <div class="join-us-page" markdown="0">
-  <div class="join-us-toolbar" role="group" aria-label="Language selection">
-    <button type="button" class="join-us-language is-active" data-language="en" aria-pressed="true">English</button>
-    <span class="join-us-language-divider" aria-hidden="true">|</span>
-    <button type="button" class="join-us-language" data-language="zh" aria-pressed="false">中文</button>
+  <div class="join-us-primary-heading">
+    <h1 id="join-us-title-en" data-language-panel="en" lang="en">Incoming Master &amp; PhD Students</h1>
+    <h1 id="join-us-title-zh" data-language-panel="zh" lang="zh-CN" hidden>硕士&amp;博士研究生</h1>
+    <div class="join-us-toolbar" role="group" aria-label="Language selection">
+      <button type="button" class="join-us-language is-active" data-language="en" aria-pressed="true">English</button>
+      <span class="join-us-language-divider" aria-hidden="true">|</span>
+      <button type="button" class="join-us-language" data-language="zh" aria-pressed="false">中文</button>
+    </div>
   </div>
 
   <div class="join-us-content" data-language-panel="en" lang="en">
-    <section class="join-us-section">
-      <h1>Incoming Master &amp; PhD Students</h1>
+    <section class="join-us-section" aria-labelledby="join-us-title-en">
       <p>Our group recruits several master and PhD students each year. Below are some frequently asked questions and our responses:</p>
 
       <div class="join-us-faq">
@@ -79,8 +82,7 @@ permalink: /join-us/
   </div>
 
   <div class="join-us-content" data-language-panel="zh" lang="zh-CN" hidden>
-    <section class="join-us-section">
-      <h1>硕士&amp;博士研究生</h1>
+    <section class="join-us-section" aria-labelledby="join-us-title-zh">
       <p>课题组每年招收若干硕士及博士研究生，以下是常见问题和回复：</p>
 
       <div class="join-us-faq">
