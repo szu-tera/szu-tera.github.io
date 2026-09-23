@@ -50,7 +50,7 @@
     - Yile Wang
   image: PEIT_2026.jpg
   links:
-    - url: https://arxiv.org/abs/2412.18084
+    - url: https://www.ijcai.org/proceedings/2026/314
       display: IJCAI 2026
       paper_icon: true
   github: https://github.com/chenlong164/PEIT
