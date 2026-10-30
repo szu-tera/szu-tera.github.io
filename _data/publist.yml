@@ -1,3 +1,35 @@
+- title: "CALM: Consistency-Aware Logit Masking in Decoding Space for Mitigating Overthinking of Large Reasoning Models"
+  description: "Training-free CALM masks action-transition tokens such as Wait after consecutive trial answers agree, reducing overthinking while keeping generation going."
+  authors: "Shengjing Liu, Feiyang Li, Yuxuan Yang, Yile Wang, Hui Huang"
+  equal_contribution_authors:
+    - Shengjing Liu
+    - Feiyang Li
+  corresponding_authors:
+    - Yile Wang
+  image: CALM_2026.png
+  links:
+    - url: https://arxiv.org/abs/2610.25908
+      display: arXiv 2026
+      paper_icon: true
+  github: https://github.com/szu-tera/CALM
+  highlight: 1
+
+- title: "Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs"
+  description: "DTC estimates reasoning confidence by counting tokens where two models strongly disagree, improving calibration without training or changing generation."
+  authors: "Feiyang Li, Shengjing Liu, Qi Zhan, Sijie Cheng, Weiqin Wang, Hongwen Chen, Yuxuan Yang, Wen Wang, Yile Wang, Hui Huang"
+  equal_contribution_authors:
+    - Feiyang Li
+    - Shengjing Liu
+  corresponding_authors:
+    - Yile Wang
+  image: DTC_2026.png
+  links:
+    - url: https://arxiv.org/abs/2609.38070
+      display: arXiv 2026
+      paper_icon: true
+  github: https://github.com/szu-tera/DTC
+  highlight: 1
+
 - title: "DySem: Uncovering Dynamic Semantic Components of Large Language Models for Calculating Semantic Textual Similarity"
   description: "Training-free DySem uses multilingual consensus to find sample-specific semantic components and compute similarity via dynamic dimensions, not hidden states."
   authors: "Kaijie Zheng, Weiqin Wang, Yile Wang, Hui Huang"
