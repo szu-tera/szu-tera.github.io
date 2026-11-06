@@ -40,7 +40,7 @@
     - Yile Wang
   image: DySem_2026.png
   links:
-    - url: https://arxiv.org/abs/2605.29751
+    - url: https://aclanthology.org/2026.emnlp-main.2596/
       display: EMNLP 2026
       paper_icon: true
   github: https://github.com/szu-tera/DySem
@@ -53,7 +53,7 @@
     - Yile Wang
   image: GenNER_2026.png
   links:
-    - url: https://arxiv.org/abs/2601.17898
+    - url: https://aclanthology.org/2026.findings-emnlp.1706/
       display: EMNLP Findings 2026
       paper_icon: true
   github: https://github.com/szu-tera/LLMs4NER
