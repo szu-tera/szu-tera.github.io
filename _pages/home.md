@@ -28,6 +28,9 @@ Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computi
         <div class="item">
             <img src="{{ site.baseurl }}/images/slider/ktv.jpg" alt="Slide 2" />
         </div>
+        <div class="item">
+            <img src="{{ site.baseurl }}/images/slider/2026%20EMNLP.jpg" alt="2026 EMNLP" />
+        </div>
         <!--
         <div class="item">
             <a href="https://arxiv.org/abs/2512.15146" class="slider-image-link" aria-label="SCOPE arXiv paper">
@@ -65,6 +68,7 @@ Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computi
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
         <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
     </ol>
 </div>
 
