@@ -130,7 +130,7 @@ permalink: /join-us/
 
     <section class="join-us-section">
       <h1>本科实习生</h1>
-      <p>欢迎有较强自驱力的本科生同学加入实验室开展相关科研活动，我们希望招收的本科实习生：</p>
+      <p>欢迎有较强自驱力的计软本科生同学加入实验室开展相关科研活动，我们希望招收的本科实习生：</p>
       <ol class="join-us-alpha-list join-us-flush-list">
         <li>对组内研究方向充满兴趣；</li>
         <li>具备较好的沟通表达能力；</li>
