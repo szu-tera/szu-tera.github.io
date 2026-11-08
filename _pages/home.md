@@ -17,13 +17,13 @@ Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computi
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.baseurl }}/images/slider/zhizhen-seven%20flour.jpg" alt="Slide 4" class="slider-crop-image" />
+            <img src="{{ site.baseurl }}/images/slider/zhizhen-seven%20flour.jpg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.baseurl }}/images/slider/after-ktv.jpg" alt="Slide 3" class="slider-crop-image" />
+            <img src="{{ site.baseurl }}/images/slider/after-ktv.jpg" alt="Slide 3" />
         </div>
         <div class="item">
-            <img src="{{ site.baseurl }}/images/slider/2026%20EMNLP.jpg" alt="2026 EMNLP" />
+            <img src="{{ site.baseurl }}/images/slider/2026%20EMNLP.jpg" alt="2026 EMNLP" class="slider-inset-image" />
         </div>
         <div class="item">
             <img src="{{ site.baseurl }}/images/slider/Austria.jpg" alt="Slide 1" />
@@ -71,65 +71,6 @@ Text Reasoning and Analysis (TeRA) Lab is a research group at the Visual Computi
         <li data-target="#carousel" data-slide-to="4"></li>
     </ol>
 </div>
-
-<script>
-(function () {
-  function fitCarouselFrame() {
-    var carousel = document.getElementById("carousel");
-    if (!carousel) return;
-
-    var inner = carousel.querySelector(".carousel-inner");
-    var images = carousel.querySelectorAll(".carousel-inner img:not(.slider-crop-image)");
-    if (!inner || !images.length) return;
-
-    var maxWidth = 0;
-    var maxHeight = 0;
-    Array.prototype.forEach.call(images, function (image) {
-      maxWidth = Math.max(maxWidth, image.naturalWidth || 0);
-      maxHeight = Math.max(maxHeight, image.naturalHeight || 0);
-    });
-    if (!maxWidth || !maxHeight) return;
-
-    var availableWidth = carousel.clientWidth;
-    var scale = Math.min(1, availableWidth / maxWidth);
-    var frameHeight = Math.ceil(maxHeight * scale);
-
-    inner.style.height = frameHeight + "px";
-    carousel.classList.add("carousel-measured");
-  }
-
-  function fitAfterImagesLoad() {
-    var carousel = document.getElementById("carousel");
-    if (!carousel) return;
-
-    var images = Array.prototype.slice.call(carousel.querySelectorAll(".carousel-inner img"));
-    var pending = images.length;
-    if (!pending) return;
-
-    function done() {
-      pending -= 1;
-      if (pending === 0) fitCarouselFrame();
-    }
-
-    images.forEach(function (image) {
-      if (image.complete && image.naturalWidth) {
-        done();
-      } else {
-        image.addEventListener("load", done);
-        image.addEventListener("error", done);
-      }
-    });
-  }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", fitAfterImagesLoad);
-  } else {
-    fitAfterImagesLoad();
-  }
-
-  window.addEventListener("resize", fitCarouselFrame);
-})();
-</script>
 
 <section markdown="0" class="research-thrusts" aria-labelledby="research-thrusts-title">
   <h2 id="research-thrusts-title">What We Work on?</h2>
